@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ocr"
+version = "0.0.1"
+description = "OCR for coval"
+authors = ["Sachin Govind <bssachingovind@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+spacy = "^3.5.3"
+pytesseract = "^0.3.10"
+Pillow = "^9.5.0"
+Flask = "^2.3.2"
+urlextract = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
